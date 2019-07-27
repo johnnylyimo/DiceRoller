@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DiceRoller</string>
+    <string name="btmRoller">Roll</string>
+    <string name="txtDisplay">Hello Kotlin!</string>
+</resources>
