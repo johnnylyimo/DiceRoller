@@ -26,12 +26,16 @@
             android:layout_height="wrap_content" app:srcCompat="@drawable/dice_1" android:id="@+id/dice_image"
     android:layout_gravity="center_horizontal"
     android:layout_marginBottom="40dp"/>
+
     <Button
-            android:text="@string/btmRoller"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="40dp"
-            android:layout_height="wrap_content" android:id="@+id/btnRoller"/>
+        android:id="@+id/btnRoller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:text="@string/btmRoller" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
